@@ -1,0 +1,422 @@
+
+
+@media only screen and (max-width:414px) {
+
+    .nav-bar{
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+        height:55vh;
+        object-fit: cover;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 4%;
+    }
+
+    .nav-list li{
+        padding: 14px 17px;
+    }
+
+    .nav-list li a{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 2.5%;
+    }
+
+    .nav-bar-right input{
+        max-width: 45%;
+        font-size: 0.7rem;
+        margin-left:1%;
+    }
+
+    .btn-sm{
+        padding: 7px 7px;
+        max-width: 37%;
+        margin: auto;
+        font-size: 7px;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 2.5%;
+    }
+
+    .hide-navbar{
+        height:56px;
+    }
+
+    /* .hide-navbar *{
+        display: none;
+    } */
+
+    .v-bar{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    /* Apply to main box and main-section */
+
+    .mainbox{
+        flex-direction: column-reverse;
+        height: auto;
+        object-fit: cover;
+        max-width:100%;
+        height: auto;
+    }
+
+    .firsthalf{
+        width:90%;
+    }
+
+    .text-big{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .text-small{
+        text-align: justify;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    .secondhalf img{
+        object-fit: contain;
+        overflow:hidden;
+        height:fit-content;
+    }
+
+    .Comment{
+        margin-left: 0;
+    }
+
+    .main-section{
+        height: auto;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+
+    .para{
+        width:100%;
+        padding-bottom: 1rem;
+    }
+
+    .title{
+        font-size: 1.58rem;
+    }
+
+    .thumbnail{
+        max-width:82%;
+        width:82%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-fluid{
+        max-width:90%;
+        padding-top:0.8rem;
+        padding-bottom:0.6rem;
+        object-fit: contain;
+        padding-right: 10px;
+
+    }
+    
+}
+
+
+@media (min-width:415px) and (max-width:720px)
+{
+    .nav-bar{
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+        height:91vh;
+        object-fit: cover;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 4%;
+    }
+
+    .nav-list li{
+        padding: 14px 17px;
+    }
+
+    .nav-list li a{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 2.5%;
+    }
+
+    .nav-bar-right input{
+        max-width: 48%;
+        font-size: 0.7rem;
+        margin-left:1%;
+    }
+
+    .btn-sm{
+        padding: 7px 7px;
+        max-width: 37%;
+        margin: auto;
+        font-size: 7px;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 2.5%;
+    }
+
+    .hide-navbar{
+        height:56px;
+    }
+
+    /* .hide-navbar *{
+        display: none;
+    } */
+
+    .v-bar{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    /*Apply to main-box 
+    Apply to main-section 
+     */
+
+    .mainbox{
+        flex-direction: column-reverse;
+        height: auto;
+        object-fit: cover;
+        max-width:100%;
+        height: auto;
+    }
+
+    .text-big{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .text-small{
+        text-align: justify;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    .secondhalf img{
+        object-fit: contain;
+        overflow:hidden;
+        height:fit-content;
+    }
+
+    .Comment{
+        margin-left: 0;
+    }
+
+    .main-section{
+        height: auto;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+
+    .para{
+        width:100%;
+        padding-bottom: 1rem;
+    }
+
+    .title{
+        font-size: 1.85rem;
+    }
+
+    .thumbnail{
+        max-width:277px;
+        width:82%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-fluid{
+        max-width:97%;
+        padding-top:0.8rem;
+        padding-bottom:0.6rem;
+        object-fit: contain;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width:721px) and (max-width:916px) and (max-height:1023px){
+
+    .nav-bar{
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+        object-fit: cover;
+        height: 91vh;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 4%;
+    }
+
+    .nav-list li{
+        padding: 14px 17px;
+    }
+
+    .nav-list li a{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 2.5%;
+    }
+
+    .nav-bar-right input{
+        max-width: 45%;
+        font-size: 0.7rem;
+        margin-left:1%;
+    }
+
+    .btn-sm{
+        padding: 7px 10px;
+        max-width: 50%;
+        margin: auto;
+        font-size: 11px;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 3.5%;
+    }
+
+    .hide-navbar{
+        height:56px;
+    }
+
+    .v-bar{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    /*
+    No need for main box
+    Apply css to main section 
+     */
+
+    .main-section{
+        height:auto;
+    }
+}
+
+/* @media (min-height:1023px)
+{
+    .nav-bar{
+        object-fit: cover;
+    }
+} */
+
+@media (min-width:720px) and (max-width:916px) and (min-height:1024px){
+
+    .nav-bar{
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+        object-fit: cover;
+        height: 39vh;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 4%;
+    }
+
+    .nav-list li{
+        padding: 14px 17px;
+    }
+
+    .nav-list li a{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 2.5%;
+    }
+
+    .nav-bar-right input{
+        max-width: 45%;
+        font-size: 0.7rem;
+        margin-left:1%;
+    }
+
+    .btn-sm{
+        padding: 7px 10px;
+        max-width: 50%;
+        margin: auto;
+        font-size: 11px;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 3.5%;
+    }
+
+    .hide-navbar{
+        height:56px;
+    }
+
+    .v-bar{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    /* No need for main box
+    Apply for main-section
+
+     */
+     
+    .main-section{
+        height:auto;
+    }
+
+}
+
+
