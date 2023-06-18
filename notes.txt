@@ -1,23 +1,15 @@
-add ubuntu font on small para
-choose proper text and write-up
-add box-lift effect
-add border and radius to randomn images
-apply flex-wrap whenever possible
+
+1. Make book a class responsive
 
 
-------------done----------------------------------------------------------------------------
-media queries 
-first breakpoint
-1110 px
-(Below this navbar breaks--logo loses padding to the left-rest of the dtuff is perfect)
+minimise the background images
 
-Below 875px
-Contact us and search bar comes very close. This is the second breakpoint
+7.Final touches
 
-Below 814 px evrything falls apart
-Hard reset 
-media queries for phone 
-tabs and above should work fine
+
+
+
+
 ------------done----------------------------------------------------------------------------
 
 
@@ -214,3 +206,15 @@ add responsiveness to rest of the section
 
 </html>
 
+//top tech discoveries in 2023
+//best tech skills to learn in 2023
+//How long will recession last?what you need to do?
+
+
+//apply transform on read more button
+//
+
+
+
+
+5325 3262 1925

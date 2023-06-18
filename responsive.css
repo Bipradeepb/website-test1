@@ -1,0 +1,975 @@
+
+
+@media only screen and (max-width:414px) {
+
+    .nav-bar{
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+        height:68vh;
+        object-fit: cover;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 4%;
+    }
+
+    .logo img{
+        height:50px;
+        max-width: 50px;
+    }
+
+    .nav-list li{
+        padding: 9.5px 17px;
+    }
+
+    .nav-list li a{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 2.5%;
+    }
+
+    .nav-bar-right input{
+        max-width: 100%;
+        font-size: 0.7rem;
+        margin-left:1%;
+    }
+
+    .btn-sm{
+        padding: 7px 7px;
+        max-width: 37%;
+        margin: auto;
+        font-size: 7px;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 2.5%;
+    }
+
+    .hide-navbar{
+        height:56px;
+    }
+
+    /* .hide-navbar *{
+        display: none;
+    } */
+
+    .v-bar{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    /* Apply to main box and main-section */
+
+    .mainbox{
+        flex-direction: column-reverse;
+        height: auto;
+        object-fit: cover;
+        max-width:100%;
+        height: auto;
+    }
+
+    .firsthalf{
+        width:90%;
+        padding-top:10%;
+    }
+
+    .text-big{
+        /* text-align: center; */
+        font-size: 2rem;
+    }
+
+    .text-small{
+        text-align: justify;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    .secondhalf img{
+        object-fit: contain;
+        overflow:hidden;
+        height:fit-content;
+    }
+
+    .Comment{
+        margin-left: 0;
+    }
+
+    .main-section{
+        height: auto;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+
+    .para{
+        width:100%;
+        padding-bottom: 1rem;
+    }
+
+    .title{
+        font-size: 1.58rem;
+    }
+
+    .thumbnail{
+        max-width:82%;
+        width:82%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-fluid{
+        max-width:90%;
+        padding-top:0.8rem;
+        padding-bottom:0.6rem;
+        object-fit: contain;
+        padding-right: 10px;
+
+    }
+    
+}
+
+
+@media (min-width:415px) and (max-width:720px)
+{
+    .nav-bar{
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+        height:77vh;
+        object-fit: cover;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 4%;
+    }
+
+    .nav-list li{
+        padding: 11px 17px;
+    }
+
+    .nav-list li a{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 2.5%;
+    }
+
+    .nav-bar-right input{
+        max-width: 100%;
+        font-size: 0.7rem;
+        margin-left:1%;
+    }
+
+    .btn-sm{
+        padding: 7px 7px;
+        max-width: 37%;
+        margin: auto;
+        font-size: 7px;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 2.5%;
+    }
+
+    .hide-navbar{
+        height:56px;
+    }
+
+    /* .hide-navbar *{
+        display: none;
+    } */
+
+    .v-bar{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    /*Apply to main-box 
+    Apply to main-section 
+     */
+
+    .mainbox{
+        flex-direction: column-reverse;
+        height: auto;
+        object-fit: cover;
+        max-width:100%;
+        height: auto;
+    }
+
+    .firsthalf{
+        padding-top: 10%;
+    }
+
+    .text-big{
+        /* text-align: center; */
+        font-size: 2rem;
+    }
+
+    .text-small{
+        text-align: justify;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    .secondhalf img{
+        object-fit: contain;
+        overflow:hidden;
+        height:fit-content;
+    }
+
+    .Comment{
+        margin-left: 0;
+    }
+
+    .main-section{
+        height: auto;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+
+    .para{
+        width:100%;
+        padding-bottom: 1rem;
+    }
+
+    .title{
+        font-size: 1.85rem;
+    }
+
+    .thumbnail{
+        max-width:277px;
+        width:82%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-fluid{
+        max-width:97%;
+        padding-top:0.8rem;
+        padding-bottom:0.6rem;
+        object-fit: contain;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width:721px) and (max-width:916px) and (max-height:1023px){
+
+    .nav-bar{
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+        object-fit: cover;
+        height: 91vh;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 4%;
+    }
+
+    .nav-list li{
+        padding: 14px 17px;
+    }
+
+    .nav-list li a{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 2.5%;
+    }
+
+    .nav-bar-right input{
+        max-width: 45%;
+        font-size: 0.7rem;
+        margin-left:1%;
+    }
+
+    .btn-sm{
+        padding: 7px 10px;
+        max-width: 50%;
+        margin: auto;
+        font-size: 11px;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 3.5%;
+    }
+
+    .hide-navbar{
+        height:56px;
+    }
+
+    .v-bar{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    /*
+    No need for main box
+    Apply css to main section 
+     */
+
+    .main-section{
+        height:auto;
+    }
+}
+
+/* @media (min-height:1023px)
+{
+    .nav-bar{
+        object-fit: cover;
+    }
+} */
+
+@media (min-width:720px) and (max-width:916px) and (min-height:1024px){
+
+    .nav-bar{
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+        object-fit: cover;
+        height: 39vh;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 4%;
+    }
+
+    .nav-list li{
+        padding: 14px 17px;
+    }
+
+    .nav-list li a{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar-right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 2.5%;
+    }
+
+    .nav-bar-right input{
+        max-width: 45%;
+        font-size: 0.7rem;
+        margin-left:1%;
+    }
+
+    .btn-sm{
+        padding: 7px 10px;
+        max-width: 50%;
+        margin: auto;
+        font-size: 11px;
+        margin-top: 2%;
+        text-align: center;
+        margin-bottom: 3.5%;
+    }
+
+    .hide-navbar{
+        height:56px;
+    }
+
+    .v-bar{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    /* No need for main box
+    Apply for main-section
+
+     */
+     
+    .main-section{
+        height:auto;
+    }
+
+}
+
+/* Making the Discover section responsive */
+
+@media screen and (max-width:1200px){
+    
+    .blog-box{
+        width:350px;
+    }
+
+    .blog-title h3{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:1170px){
+
+    .blog-box{
+        width:330px;
+    }
+
+    .blog-title h3{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:1110px){
+
+    .blog-box{
+        width:300px;
+    }
+
+    .blog-title h3{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:1020px){
+
+    .blog-container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap:30px;
+    }
+    
+    .blog-box{
+        width:80%;
+        max-height: auto;
+        align-items: normal;
+        margin: auto;
+        /* padding: 10px 35px; */
+    }
+
+    .blog-text{
+        padding: 0 35px;
+    }
+
+}
+
+@media screen and (max-width:800px){
+
+    .blog-text{
+        padding: 0 20px;
+    }
+
+}
+
+
+@media screen and (max-width:550px){
+
+    .blog-title h3{
+        font-size: 1.3rem;
+    }
+
+    .blog-box{
+        width:92%;
+    }
+
+    .blog-text{
+        padding: 0 15px;
+    }
+
+    /* .blog-title span{
+        font-size: 0.7rem;
+    } */
+
+}
+
+/* Make learn from mentors responsive */
+@media screen and (max-width:500px) {
+    
+    .top-mentors h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:370px) {
+    
+    .top-mentors h1{
+        font-size: 1.3rem;
+    }
+}
+
+/* Making the book a class section responsive */
+
+@media screen and (max-width:1000px) {
+
+    /* .book-class{
+        background-position: 100% 30%;
+    } */
+
+    .right-panel{
+        width:55vw;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    /* .book-class{
+        background-position: 85% 30%;
+    } */
+
+    .book-class .align-container{
+        top:50px;
+    }
+
+    .right-panel{
+        top: 10px;
+        right:0;
+        width:57vw;
+        margin: 10px 15px;
+    }
+
+    .book-class form input{
+        width:100%;
+        margin: 7px 0;
+    }
+    
+}
+ 
+/* @media screen and (max-width:700px) {
+
+    .book-class{
+        background-position: 85% 30%;
+    }
+
+    .book-class .align-container{
+        top:18%;
+    }
+    .align-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .right-panel{
+        top: 10px;
+        right:0;
+        width:57vw;
+        margin: 10px 15px;
+        position: relative;
+        width: 86%;
+        margin: auto;
+        z-index: 0;
+    }
+
+    .book-class form input{
+        width:100%;
+        margin: 7px 0;
+    }  
+}  */
+
+
+@media screen and (max-width:700px) {
+
+    /* .book-class{
+        background-position: 85% 30%;
+    } */
+
+    .book-class .align-container{
+        top:15%;
+    }
+    .align-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .right-panel{
+        top: 0;
+        right:0;
+        width:93%;
+        margin: 10px 15px;
+        position: relative;
+        width: 86%;
+        margin: auto;
+        z-index: 0;
+    }
+
+    .book-class form input{
+        width:100%;
+        margin: 7px 0;
+    }  
+}
+
+/* @media screen and (max-height:600px) {
+    .book-class{
+        height:600px;
+    }
+} */
+
+
+@media screen and (min-width:1550px) {
+    .book-class{
+        height:1045px;
+    }
+
+    .book-class .align-container {
+        top: 70px;
+    }
+
+    .right-panel {
+        /* position: absolute; */
+        /* width: 45vw; */
+        max-width: 851px;
+        height: auto;
+        /* background-color: whitesmoke; */
+        padding: 20px;
+        top: 15px;
+        right: 60px;
+        margin: 15px;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    .right-panel h2 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-family: 'Ubuntu',sans-serif;
+        font-weight: 700;
+        /* font-size: 1.7rem; */
+        font-size: max(2vw,2.3rem);
+        padding: 20px 0;
+        white-space: nowrap;
+        color: white;
+    }
+
+    .right-panel h4 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-family: 'Ubuntu',sans-serif;
+        /* padding: 10px 0; */
+        padding: 5px 0;
+        white-space: nowrap;
+        font-size: max(1.1vw,1.3rem);
+        color: white;
+    }
+
+    .third-line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .draw-line {
+        height: max(0.1vw,1.5px);
+        width: 32%;
+        /* background-color: rgba(0, 0, 0, 0.329); */
+        background-color: white;
+        opacity: 0.3;
+    }
+
+    .third-line h3 {
+        font-family: 'Ubuntu',sans-serif;
+        font-weight: 600;
+        white-space: nowrap;
+        font-size: max(1.4vw,1.6rem);
+        color: white;
+        text-align: center;
+    }
+
+    .fourth-line {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 10px;
+        /* padding-bottom: 20px; */
+        padding-bottom: 5px;
+    }
+
+    .fourth-line .left {
+        text-align: center;
+        font-family: 'Ubuntu',sans-serif;
+        padding: 10px;
+        padding: -9px;
+        padding-left: 20%;
+        padding-right: 21%;
+        margin-right: 1.5px;
+        border-radius: 6px;
+        font-size: max(1vw,1.2rem);
+        text-decoration: none;
+        border: 1px solid lightgray;
+        outline: none;
+        background: transparent;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+        color: white;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .fourth-line .right {
+        text-align: center;
+        font-family: 'Ubuntu',sans-serif;
+        padding: 10px;
+        padding: -9px;
+        padding-left: 20%;
+        padding-right: 21%;
+        margin-right: 1.5px;
+        border-radius: 6px;
+        font-size: max(1vw,1.2rem);
+        text-decoration: none;
+        border: 1px solid lightgray;
+        outline: none;
+        background: transparent;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+        color: white;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .book-class form input {
+        display: block;
+        padding: 35px;
+        /* border-radius: 10px; */
+        border-radius: 8px;
+        /* font-size: 1rem; */
+        font-size: max(1.3vw,1.3rem);
+        width: 99%;
+        /* max-width: 500px; */
+        height: 10px;
+        /* text-align: center; */
+        margin: 15px 0;
+        font-family: 'Ubuntu',sans-serif;
+        padding-top: 29px;
+        border: 1px solid rgb(150 144 144 / 70%);
+        padding-bottom: 29px;
+        cursor: pointer;
+        text-overflow: ellipsis;
+    }
+
+    .book-class form .submit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right,rgba(254, 116, 3, 0.836),rgba(255, 89, 0, 0.877),rgba(231, 34, 4, 0.854));
+        font-family: 'Ubuntu',sans-serif;
+        /* padding: 44px 9px; */
+        padding: 46px 20px;
+        /* font-size: 1.6rem; */
+        font-size: max(2.4rem,1.7vw);
+        color: white;
+        border-radius: 6px;
+        /* opacity: 1; */
+    }
+}
+
+
+
+@media screen and (min-width:1750px) {
+    .book-class{
+        height:1300px;
+    }
+
+    .book-class .align-container {
+        top: 75px;
+    }
+
+    .right-panel {
+        /* position: absolute; */
+        /* width: 45vw; */
+        max-width: 851px;
+        height: auto;
+        /* background-color: whitesmoke; */
+        padding: 20px;
+        top: 15px;
+        right: 100px;
+        margin: 30px;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    .right-panel h2 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-family: 'Ubuntu',sans-serif;
+        font-weight: 700;
+        /* font-size: 1.7rem; */
+        font-size: max(2vw,2.6rem);
+        padding: 25px 0;
+        white-space: nowrap;
+        color: white;
+    }
+
+    .right-panel h4 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-family: 'Ubuntu',sans-serif;
+        /* padding: 10px 0; */
+        padding: 5px 0;
+        white-space: nowrap;
+        font-size: max(1.1vw,1.6rem);
+        color: white;
+    }
+
+    .third-line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0;
+    }
+
+    .draw-line {
+        height: max(0.1vw,1.5px);
+        width: 32%;
+        /* background-color: rgba(0, 0, 0, 0.329); */
+        background-color: white;
+        opacity: 0.3;
+    }
+
+    .third-line h3 {
+        font-family: 'Ubuntu',sans-serif;
+        font-weight: 600;
+        white-space: nowrap;
+        font-size: max(1.4vw,2rem);
+        color: white;
+        text-align: center;
+    }
+
+    .fourth-line {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 15px;
+        /* padding-bottom: 20px; */
+        padding-bottom: 10px;
+    }
+
+    .fourth-line .left {
+        text-align: center;
+        font-family: 'Ubuntu',sans-serif;
+        padding: 10px;
+        padding: -9px;
+        padding-left: 20%;
+        padding-right: 21%;
+        margin-right: 1.5px;
+        border-radius: 6px;
+        font-size: max(1vw,1.4rem);
+        text-decoration: none;
+        border: 1px solid lightgray;
+        outline: none;
+        background: transparent;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .fourth-line .right {
+        text-align: center;
+        font-family: 'Ubuntu',sans-serif;
+        padding: 10px;
+        padding: -9px;
+        padding-left: 20%;
+        padding-right: 21%;
+        margin-right: 1.5px;
+        border-radius: 6px;
+        font-size: max(1vw,1.4rem);
+        text-decoration: none;
+        border: 1px solid lightgray;
+        outline: none;
+        background: transparent;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .book-class form input {
+        display: block;
+        padding: 40px;
+        /* border-radius: 10px; */
+        border-radius: 8px;
+        /* font-size: 1rem; */
+        font-size: max(1.3vw,1.3rem);
+        width: 100%;
+        /* max-width: 500px; */
+        height: 10px;
+        /* text-align: center; */
+        margin: 19px 0;
+        font-family: 'Ubuntu',sans-serif;
+        padding-top: 35px;
+        border: 1px solid rgb(150 144 144 / 70%);
+        padding-bottom: 35px;
+        cursor: pointer;
+        text-overflow: ellipsis;
+    }
+
+    .book-class form .submit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right,rgba(254, 116, 3, 0.836),rgba(255, 89, 0, 0.877),rgba(231, 34, 4, 0.854));
+        font-family: 'Ubuntu',sans-serif;
+        padding: 44px 9px;
+        padding: 60px 27px;
+        /* font-size: 1.6rem; */
+        font-size: max(3rem,1.7vw);
+        color: white;
+        border-radius: 6px;
+        /* opacity: 1; */
+    }
+}
+
+
