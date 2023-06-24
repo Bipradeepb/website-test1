@@ -148,7 +148,7 @@
     .nav-bar{
         flex-direction: column;
         transition: all 0.6s ease-out;
-        height:77vh;
+        height:55vh;
         object-fit: cover;
     }
 
@@ -161,7 +161,7 @@
     }
 
     .nav-list li{
-        padding: 11px 17px;
+        padding: 14px 17px;
     }
 
     .nav-list li a{
